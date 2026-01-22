@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using GridMind.Puzzle;
 
 namespace GridMind.Grid
 {
