@@ -1,5 +1,6 @@
 using UnityEngine;
 using GridMind.Puzzle;
+using GridMind.UI;
 
 namespace GridMind.Managers
 {
@@ -9,7 +10,7 @@ namespace GridMind.Managers
     /// Central authority for game state, level progression, and move counting.
     /// Persists across scenes via DontDestroyOnLoad.
     /// </summary>
-    public class GameManager : MonoBehaviour
+    public partial class GameManager : MonoBehaviour
     {
         public static GameManager Instance { get; private set; }
 
