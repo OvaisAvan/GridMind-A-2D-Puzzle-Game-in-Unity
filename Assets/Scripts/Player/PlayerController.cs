@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using GridMind.Grid;
 using GridMind.Managers;
+using GridMind.Puzzle;
 
 namespace GridMind.Player
 {
